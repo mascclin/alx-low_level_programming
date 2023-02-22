@@ -5,9 +5,9 @@
  * followed by a new line
  */
 void print_alphabet_x10(void);
-{
-	char ch;
-	int i;
+(
+	Char (ch)
+	int 1;
 
 	i = 0;
 
