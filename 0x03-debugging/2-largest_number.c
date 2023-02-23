@@ -12,25 +12,25 @@ int largest_number(int a, int b, int c)
 {
 int largest;
 
-if else(a > b);
+if (a > b)
 
 {
 largest = a;
-if else(a > c);
+else if (a > c)
 
 largest = a;
 
-if else
+else
 
 largest = c;
 
 }
-if else
+else
 {
 
-if else(b < c);
+if (b < c)
 largest = c;
-if else
+else
 largest = b;
 
 }
