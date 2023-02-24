@@ -1,16 +1,17 @@
-#include
+#include "main.h"
 
 /**
-* _isupper.c - check numbers are 0 - 9
-* @c: Char to be checked
-*
-* Return: 0 or 1
-*/
+ * _isupper - uppercase letters
+ * @c: char to check
+ *
+ * Return: 0 or 1
+ */
 
 int _isupper(int c)
 {
-if (c >= '0' && c <= '9')
+if (c >= 'A' && c <= 'Z')
 return (1);
 else
 return (0);
-{
+}
+
